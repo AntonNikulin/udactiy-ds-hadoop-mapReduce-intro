@@ -1,0 +1,2 @@
+head -50 ../data/purchases.txt > testfile
+cat testfile | ./mapper.py | sort | ./reducer1.py
