@@ -23,12 +23,12 @@ for line in sys.stdin:
     thisKey, thisSale = data_mapped
 
     if thisKey == "Reno":
-	    if float(thisSale) > highReno:
-    		highReno = float(thisSale)
+    	if float(thisSale) > highReno:
+            highReno = float(thisSale)
 
     elif thisKey == "Toledo":
-	    if float(thisSale) > highToledo:
-    		highToledo = float(thisSale)
+	if float(thisSale) > highToledo:
+            highToledo = float(thisSale)
 
     elif thisKey == "Chandler":
         if float(thisSale) > highChandler:
