@@ -19,8 +19,6 @@ The logfile is in Common Log Format:
 	
 Write a MapReduce job to solve the given problems: 
 
-p2_reducer1.py, p2_mapper1.py -> How many hits were made to the page /assets/js/the-associates.js ? 
-
-p2_reducer2.py, p2_mapper2.py -> How many hits were made by the IP address 10.99.99.186 ? 
+p2_reducer1.py, p2_mapper1.py -> How many hits were made to the page /assets/js/the-associates.js ? How many hits were made by the IP address 10.99.99.186 ? 
 
 p2_reducer3.py, p2_mapper3.py -> Write out the name of the most popular file and the number of hits into HDFS. 
